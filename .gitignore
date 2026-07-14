@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Progress reports are delivered directly to the user, not pushed to GitHub
+progress-1.pdf
+progress-2.pdf
+progress-3.pdf

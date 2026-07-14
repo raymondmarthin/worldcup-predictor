@@ -1,0 +1,42 @@
+{
+  "model_version": "wc2026-knockout-v1",
+  "model_type": "logistic_regression",
+  "calibrated": false,
+  "trained_at": "2026-07-14T11:24:33.709363+00:00",
+  "split_date": "2018-01-01",
+  "n_train": 15019,
+  "n_test": 5760,
+  "features_used": [
+    "elo_delta",
+    "rank_delta",
+    "recent_form_delta",
+    "goal_diff_recent_delta",
+    "rest_days_delta"
+  ],
+  "backtest_metrics": {
+    "log_loss": 0.47825113928204765,
+    "brier_score": 0.15770636114378778,
+    "accuracy": 0.7666666666666667,
+    "n_samples": 5760
+  },
+  "all_models_backtest": {
+    "logistic_regression": {
+      "log_loss": 0.47825113928204765,
+      "brier_score": 0.15770636114378778,
+      "accuracy": 0.7666666666666667,
+      "n_samples": 5760
+    },
+    "random_forest": {
+      "log_loss": 0.48199633462170693,
+      "brier_score": 0.1586116793759709,
+      "accuracy": 0.7670138888888889,
+      "n_samples": 5760
+    },
+    "xgboost": {
+      "log_loss": 0.4803143652257336,
+      "brier_score": 0.15813539178369393,
+      "accuracy": 0.7651041666666667,
+      "n_samples": 5760
+    }
+  }
+}
