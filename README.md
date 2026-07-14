@@ -1,11 +1,10 @@
 # World Cup 2026 Live Knockout Predictor API
 
-![CI](https://github.com/USERNAME/worldcup-predictor/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/raymondmarthin/worldcup-predictor/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688)
 
-> Ganti `USERNAME` di badge CI di atas dengan username GitHub kamu setelah push, biar badge-nya aktif.
 
 REST API (FastAPI) that predicts win probabilities for FIFA World Cup 2026
 knockout matches, using historical international results, FIFA ranking as
